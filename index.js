@@ -27,9 +27,9 @@ function callAlert(Vardas){
     alert(Vardas);
 }
 
-function correctName(vardas, displayFunction){
+function correctName(vardas, callBack){
     let Vardas = vardas.charAt(0).toUpperCase() + vardas.slice(1);
-    displayFunction(Vardas);
+    callBack(Vardas);
 }
 
 // Example usage
